@@ -2,10 +2,10 @@ function login(){
 var user, password
 
 user = document.getElementById("usuario").value;
-password = documente.getElementById("contrasena").value;
+password = document.getElementById("contrasena").value;
 
 if( user == "bit" && password == "2023"){
-alert("¡Iniciaste Sesión!")
+window.location = "index2.html"
 }
  else{
     alert("Datos Incorrectos")  
