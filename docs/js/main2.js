@@ -12,18 +12,4 @@ function saludar(e) {
   }
 }
 let resultado = 0;
-//SUMA
-//operación
-resultado = Number(num1.value) + Number(num2.value);
-//impresión en html
-resOb.innerHTML = resultado;
-//RESTA
-//operación
-resultado = Number(num1.value) - Number(num2.value);
-//impresión en html
-resOb.innerHTML = resultado;
-//MULTIPLICACION
-//operación
-resultado = Number(num1.value) * Number(num2.value);
-//impresión en html
-resOb.innerHTML = resultado;
+
